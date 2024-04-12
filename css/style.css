@@ -182,7 +182,7 @@ ul,li{
 	line-height:22px;
 	text-align: center;
 	padding: 13px 30px;
-	color:#9147ff;
+	color:#ffffff;
 	font-weight:500;
 	text-transform: uppercase;
 	letter-spacing:.5px;
@@ -198,7 +198,7 @@ ul,li{
 .btn-style-two:hover{
 	color: #ffffff;
 	background: #9147ff;
-	border-color: #9147ff;
+	border-color: #222;
 }
 
 
