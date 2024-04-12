@@ -196,9 +196,9 @@ ul,li{
 }
 
 .btn-style-two:hover{
-	color: #ffffff;
+	color: #222;
 	background: #9147ff;
-	border-color: #222;
+	border-color: #9147ff;
 }
 
 
