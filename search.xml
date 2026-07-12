@@ -1,58 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>VASP测试</title>
-    <url>/2026/07/12/VASP%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Research</category>
-        <category>VASP</category>
-      </categories>
-      <tags>
-        <tag>Test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Anaconda安装与配置</title>
-    <url>/2026/07/12/Anaconda%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[Anaconda安装与配置1. Anaconda简介Anaconda是一个用于Python科学计算的发行版。
-在计算材料学中，Anaconda常用于：
-
-Python环境管理
-科研计算脚本运行
-数据处理
-自动化计算流程
-
-2. 安装准备记录安装前需要准备的内容。
-包括：
-
-系统环境
-安装包获取
-安装位置选择
-
-3. Anaconda安装过程记录具体安装步骤。
-4. Conda环境管理介绍：
-
-创建环境
-删除环境
-查看环境
-安装软件包
-
-5. 科研计算中的使用结合计算材料学说明：
-
-Python脚本运行
-数据分析
-自动化任务
-
-6. 常见问题记录安装过程中遇到的问题。
-
-Software软件安装、配置以及使用方法。
-Python环境
-Anaconda安装与配置
-
-]]></content>
-  </entry>
-  <entry>
     <title>我的第一篇博客</title>
     <url>/2026/07/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[我的第一篇博客这是我的个人知识库。
@@ -73,5 +21,40 @@ TCAD
         <tag>DFT</tag>
         <tag>VASP</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>VASP测试</title>
+    <url>/2026/07/12/VASP%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Research</category>
+        <category>VASP</category>
+      </categories>
+      <tags>
+        <tag>Test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Anaconda安装与配置</title>
+    <url>/2026/07/12/Anaconda%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[Anaconda安装与配置首先需要下载Anaconda安装包官网：https://www.anaconda.com/download清华镜像：https://mirrors.tuna.tsinghua.edu.cn/anaconda/
+
+切记选对版本。下载好之后应该是一个.sh文件。安装上传后直接运行命令：
+sh Anaconda3-2023.07-1-Linux-x86_64.sh
+
+一路回车ok。注意别过头了，这里需要输入yes：
+
+在这里输入你想安装的位置:
+
+程序会在该位置创建文件夹并安装在该文件夹中。修改配置：
+vi ~/.bashrc
+在下方加入以下语句：
+export PATH="/home/yanli/xyzhai/software/anaconda3/bin:$PATH"
+加载环境变量：
+source ~/.bashrc
+在终端输入python 
+
+如果出现python版本号则配置成功。
+]]></content>
   </entry>
 </search>
