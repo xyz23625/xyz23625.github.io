@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>图片测试</title>
-    <url>/2026/07/12/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[
+    <title>代码测试</title>
+    <url>/2026/07/12/%E4%BB%A3%E7%A0%81%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[Pythonimport numpy as np
+
+a = np.array([1, 2, 3])
+print(a)
+
+Shellvasp_std > vasp.out
+
+VASP 参数ENCUT = 520
+ISMEAR = 0
+SIGMA = 0.05
 ]]></content>
+      <tags>
+        <tag>Test</tag>
+      </tags>
   </entry>
   <entry>
     <title>我的第一篇博客</title>
@@ -27,5 +39,17 @@ TCAD
         <tag>DFT</tag>
         <tag>VASP</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>公式测试</title>
+    <url>/2026/07/12/%E5%85%AC%E5%BC%8F%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[$$E &#x3D; mc^2$$
+]]></content>
+  </entry>
+  <entry>
+    <title>图片测试</title>
+    <url>/2026/07/12/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[
+]]></content>
   </entry>
 </search>
