@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>VASP测试</title>
+    <url>/2026/07/12/VASP%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Research</category>
+        <category>VASP</category>
+      </categories>
+      <tags>
+        <tag>Test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的第一篇博客</title>
     <url>/2026/07/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[我的第一篇博客这是我的个人知识库。
@@ -23,20 +35,8 @@ TCAD
       </tags>
   </entry>
   <entry>
-    <title>VASP测试</title>
-    <url>/2026/07/12/VASP%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Research</category>
-        <category>VASP</category>
-      </categories>
-      <tags>
-        <tag>Test</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Anaconda安装与配置</title>
-    <url>/2026/07/12/Anaconda%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</url>
+    <url>//software/anaconda/</url>
     <content><![CDATA[Anaconda安装与配置首先需要下载Anaconda安装包官网：https://www.anaconda.com/download清华镜像：https://mirrors.tuna.tsinghua.edu.cn/anaconda/
 
 切记选对版本。下载好之后应该是一个.sh文件。安装上传后直接运行命令：
